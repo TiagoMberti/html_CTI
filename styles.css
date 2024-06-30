@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #4CAF50;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    background-color: white; /* Adicionado para melhorar contraste com o fundo */
+    padding: 20px;
+    border-radius: 5px; /* Adicionado para arredondar as bordas das seções */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adicionado para efeito de sombra */
+}
+
+section h2 {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    margin-top: 0;
+    border-top-left-radius: 5px; /* Arredonda o canto superior esquerdo */
+    border-top-right-radius: 5px; /* Arredonda o canto superior direito */
+}
+
+section ul {
+    list-style: disc inside;
+    margin-left: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+h1 {
+    font-size: 50px; /* Reduzi o tamanho da fonte para evitar que fique muito grande */
+    text-align: center; /* Centraliza o texto */
+}
+
+p {
+    text-align: center;
+}
+
+/* Estilos para as imagens dentro das seções */
+section img {
+    display: block; /* Garante que a imagem seja exibida como bloco para aplicar margens automáticas */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do seu contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 5px; /* Adiciona bordas arredondadas para suavizar as extremidades */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adiciona sombra para destacar a imagem */
+    max-width: 100%; /* Define a largura máxima para 100% do contêiner */
+    max-height: 400px; /* Define a altura máxima para 400 pixels */
+}
+/* Estilos para o header */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+}
+
+/* Estilos para a imagem no header */
+.header-image {
+    max-width: 100px; /* Define a largura máxima da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    margin-left: 10px; /* Adiciona um espaço à esquerda da imagem */
+}
